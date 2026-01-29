@@ -6,17 +6,18 @@
 }
 
 :root {
-    --primary: #6366f1;
-    --primary-dark: #4f46e5;
-    --accent: #f59e0b;
-    --success: #10b981;
+    /* 🎨 Anti AI-Slop Colors - NO PURPLE! */
+    --primary: #0d9488;          /* Teal - distinctive */
+    --primary-dark: #0f766e;     /* Teal dark */
+    --accent: #f97316;           /* Orange vif - énergie */
+    --success: #22c55e;
     --dark: #0f172a;
     --dark-light: #1e293b;
     --gray: #64748b;
     --gray-light: #94a3b8;
     --light: #f1f5f9;
     --white: #ffffff;
-    --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+    --gradient: linear-gradient(135deg, #0d9488 0%, #0891b2 50%, #0284c7 100%); /* Teal to Blue - NO PURPLE */
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
@@ -29,7 +30,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     background: var(--white);
     color: var(--dark);
     line-height: 1.6;
