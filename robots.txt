@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://michelbot.github.io/toolsradar/sitemap.xml
+
+# Crawl-delay pour éviter surcharge
+Crawl-delay: 1
